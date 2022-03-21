@@ -1,0 +1,29 @@
+.blog-card {
+	width: 370px;
+	height: 450px;
+	border: none;
+	margin: 20px;
+}
+
+.blog-card-content h3 {
+	font-weight: 700;
+}
+.blog-card-content p {
+	margin-top: 20px;
+}
+
+.blog-card-button {
+	text-decoration: none;
+	color: var(--darkPurpleGray);
+	border-bottom: 2px dashed var(--darkPurpleGray);
+	border-left: 2px solid var(--darkPurpleGray);
+	padding: 0 0 10px 10px;
+}
+
+.blog-card-button:hover {
+	text-decoration: none;
+	color: var(--darkPurpleGray);
+	border-top: 2px dashed var(--darkPurpleGray);
+	border-right: 2px solid var(--darkPurpleGray);
+	padding: 10px 10px;
+}

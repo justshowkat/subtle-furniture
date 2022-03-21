@@ -1,7 +1,4 @@
 import {
-	faEnvelope,
-	faPhone,
-	faSearch,
 	faShoppingBasket,
 	faUserCircle,
 } from "@fortawesome/free-solid-svg-icons";

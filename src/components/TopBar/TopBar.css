@@ -1,0 +1,28 @@
+.top-bar {
+	padding: 0 15px;
+}
+
+.top-bar-search-form Button {
+	background-color: var(--primaryColor);
+	color: rgb(255, 255, 255);
+	border: 2px solid var(--red);
+	padding: 0px 50px;
+}
+.top-bar-search-form Button:hover {
+	background-color: transparent;
+	color: var(--primaryColor);
+	border: 2px dashed var(--primaryColor);
+	padding: 0px 50px;
+}
+
+.tool-bar-icons {
+	font-size: 35px;
+	color: var(--primaryColor);
+	margin: 0 10px;
+}
+.tool-bar-icon {
+	margin: 0 5px;
+}
+.tool-bar-icon :hover {
+	color: rgb(80, 80, 80);
+}

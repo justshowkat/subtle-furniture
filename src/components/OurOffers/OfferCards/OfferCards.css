@@ -1,0 +1,16 @@
+.offer-card {
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+	margin: 30px 1px;
+	border-right: 2px solid var(--darkPurpleGray);
+	border-left: 2px solid var(--darkPurpleGray);
+	font-size: 18px;
+}
+.offer-card img {
+	height: 50px;
+	width: 50px;
+	margin-right: 20px;
+}

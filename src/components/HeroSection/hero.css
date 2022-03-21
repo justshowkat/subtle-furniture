@@ -1,0 +1,108 @@
+.hero-custom-container {
+	background-color: rgb(247, 233, 251);
+}
+
+.hero-row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 30px;
+	height: 800px;
+	background-color: var(--secondaryColor);
+}
+
+.hero-col-one {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.hero-col-one-content-offer h6 {
+	margin: 10px auto;
+	text-align: start;
+	max-width: 100%;
+	position: relative;
+}
+.hero-col-one-content-offer h6:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 2px;
+	position: absolute;
+	background-color: black;
+	left: 0;
+	top: 50%;
+	margin-left: 100px;
+}
+.hero-col-one-content h1 {
+	font-size: 80px;
+	color: var(--primaryColor);
+	font-weight: 800;
+}
+.hero-col-one-content h5 {
+	font-size: 40px;
+}
+.hero-col-one-content Button {
+	font-size: 25px;
+	background-color: transparent;
+	color: var(--primaryColor);
+	border: 2px dashed var(--primaryColor);
+	border-radius: 40px;
+	padding: 5px 50px;
+}
+.hero-col-one-content Button:hover {
+	font-size: 25px;
+	background-color: var(--primaryColor);
+	color: rgb(255, 255, 255);
+	border: 2px solid var(--red);
+	padding: 5px 50px;
+}
+
+.hero-col-two {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.hero-image {
+	height: 400px;
+}
+@media only screen and (max-width: 1000px) {
+	.hero-custom-container {
+		background-image: url("../../images/Hero-images/sofa\ promotional\ headerhero\ images.png");
+		background-repeat: no-repeat;
+	}
+	.hero-row {
+		width: 100vw;
+		background-color: rgba(248, 238, 251, 0.637);
+	}
+	.hero-image {
+		display: none;
+	}
+	.hero-col-one {
+		align-items: flex-start;
+	}
+	.hero-col-one-content h1 {
+		font-size: 70px;
+	}
+	.hero-col-one-content h5 {
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.hero-row {
+		margin: 0 10px;
+		padding: 50px 20px;
+		height: 100%;
+	}
+
+	.hero-col-one-content Button {
+		font-size: 15px;
+		background-color: transparent;
+		color: var(--primaryColor);
+		border: 2px dashed var(--primaryColor);
+		padding: 10px 50px;
+	}
+}

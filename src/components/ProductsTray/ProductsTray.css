@@ -1,0 +1,23 @@
+.products-tray-container {
+	margin: 50px auto;
+}
+.products-tray-nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 0;
+	border-bottom: 1px solid var(--disabledGray);
+}
+.products-tray-nav h2 {
+	margin: 0 20px;
+	color: var(--disabledGray);
+	cursor: pointer;
+}
+
+#products-tray-nav-active-item {
+	color: var(--darkPurpleGray);
+	font-weight: 600;
+	border-top: 2px solid var(--darkPurpleGray);
+	border-bottom: 2px solid var(--darkPurpleGray);
+}
